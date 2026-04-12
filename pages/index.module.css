@@ -265,6 +265,11 @@ body {
 .roomName {
   font-weight: 600;
   font-size: 15px;
+  color: #000;;
+}
+
+:global(body.dark) .roomName {
+  color: #eee;
 }
 
 .roomTopic {
