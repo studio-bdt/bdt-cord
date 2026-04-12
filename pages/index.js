@@ -59,36 +59,36 @@ function LandingScreen({ onJoin, onBrowse }) {
       <div className={styles.landingInner}>
         <h1 className={styles.landingTitle}>BDT-cord</h1>
 
-        <section className={styles.card}>
-          <h2 className={styles.cardTitle}>Your name</h2>
-          <input className={styles.input} value={name} onChange={e => setName(e.target.value)}
-            placeholder="Display name" maxLength={24} autoFocus />
-        </section>
+        <div className={styles.joinCards}>
+          <section className={styles.card}>
+            <h2 className={styles.cardTitle}>Your name</h2>
+            <input className={styles.input} value={name} onChange={e => setName(e.target.value)}
+              placeholder="Display name" maxLength={24} autoFocus />
+          </section>
 
-        <section className={styles.card}>
-          <h2 className={styles.cardTitle}>Join a room</h2>
-          <div className={styles.row}>
-            <input className={styles.input} value={code} onChange={e => setCode(e.target.value.toUpperCase())}
-              placeholder="Room code" maxLength={12}
-              onKeyDown={e => e.key === 'Enter' && handleJoin()} />
-            <button className={styles.btnPrimary} onClick={handleJoin} disabled={loading}>Join</button>
-          </div>
-        </section>
+          <section className={styles.card}>
+            <h2 className={styles.cardTitle}>Join a room</h2>
+            <div className={styles.row}>
+              <input className={styles.input} value={code} onChange={e => setCode(e.target.value.toUpperCase())}
+                placeholder="Room code" maxLength={12}
+                onKeyDown={e => e.key === 'Enter' && handleJoin()} />
+              <button className={styles.btnPrimary} onClick={handleJoin} disabled={loading}>Join</button>
+            </div>
+          </section>
 
-        <p className={styles.divider}>or</p>
-
-        <section className={styles.card}>
-          <h2 className={styles.cardTitle}>Create a room</h2>
-          <input className={styles.input} value={rName} onChange={e => setRName(e.target.value)}
-            placeholder="Room name" maxLength={32} />
-          <input className={styles.input} value={rTopic} onChange={e => setRTopic(e.target.value)}
-            placeholder="Description (optional)" maxLength={80} />
-          <div className={styles.visRow}>
-            <button className={vis === 'public' ? styles.btnPrimary : styles.btn} onClick={() => setVis('public')}>Public</button>
-            <button className={vis === 'private' ? styles.btnPrimary : styles.btn} onClick={() => setVis('private')}>Private</button>
-          </div>
-          <button className={styles.btnPrimary} onClick={handleCreate} disabled={loading}>Create room</button>
-        </section>
+          <section className={styles.card}>
+            <h2 className={styles.cardTitle}>Create a room</h2>
+            <input className={styles.input} value={rName} onChange={e => setRName(e.target.value)}
+              placeholder="Room name" maxLength={32} />
+            <input className={styles.input} value={rTopic} onChange={e => setRTopic(e.target.value)}
+              placeholder="Description (optional)" maxLength={80} />
+            <div className={styles.visRow}>
+              <button className={vis === 'public' ? styles.btnPrimary : styles.btn} onClick={() => setVis('public')}>Public</button>
+              <button className={vis === 'private' ? styles.btnPrimary : styles.btn} onClick={() => setVis('private')}>Private</button>
+            </div>
+            <button className={styles.btnPrimary} onClick={handleCreate} disabled={loading}>Create room</button>
+          </section>
+        </div>
 
         {err && <p className={styles.error}>{err}</p>}
 
@@ -274,6 +274,7 @@ export default function Home() {
     <>
       <Head>
         <title>BDT-cord</title>
+        <link rel="icon" type="image/x-icon" href="../images/bdt logo.png"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {screen === 'landing' && <LandingScreen onJoin={handleJoin} onBrowse={() => setScreen('browse')} />}
