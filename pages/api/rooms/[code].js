@@ -7,6 +7,7 @@ export default async function handler(req, res) {
   const roomCode = (Array.isArray(code) ? code[0] : code)?.toUpperCase()
   const room = await redis.hgetall(`room:${roomCode}`)
   if (!room) return res.status(404).json({ error: 'Room not found' })
-  const messages = await redis.lrange(`messages:${roomCode}`, -100, -1)
-  res.json({ ...room, messages: messages.map(m => JSON.parse(m)) })
+  const raw = await redis.lrange(`messages:${roomCode}`, -100, -1)
+  const messages = raw.map(m => typeof m === 'string' ? JSON.parse(m) : m)
+  res.json({ ...room, messages })
 }

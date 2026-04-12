@@ -274,7 +274,7 @@ export default function Home() {
     <>
       <Head>
         <title>BDT-cord</title>
-        <link rel="icon" type="image/x-icon" href="../images/bdt logo.png"></link>
+        <link rel="icon" type="image/x-icon" href="images/bdt-logo.png"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {screen === 'landing' && <LandingScreen onJoin={handleJoin} onBrowse={() => setScreen('browse')} />}
