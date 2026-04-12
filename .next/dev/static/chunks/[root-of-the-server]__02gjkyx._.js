@@ -508,6 +508,7 @@ __turbopack_context__.v({
   "roomName": "index-module__KWKY6G__roomName",
   "roomTopic": "index-module__KWKY6G__roomTopic",
   "row": "index-module__KWKY6G__row",
+  "source": "index-module__KWKY6G__source",
   "topicBanner": "index-module__KWKY6G__topicBanner",
   "typing": "index-module__KWKY6G__typing",
   "visRow": "index-module__KWKY6G__visRow",
@@ -561,9 +562,9 @@ function Avatar({ name, color }) {
     }, this);
 }
 _c = Avatar;
-function LandingScreen({ onJoin, onBrowse }) {
+function LandingScreen({ onJoin, onBrowse, savedName }) {
     _s();
-    const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [name, setName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(savedName || '');
     const [code, setCode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [rName, setRName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [rTopic, setRTopic] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
@@ -840,7 +841,7 @@ function LandingScreen({ onJoin, onBrowse }) {
         columnNumber: 5
     }, this);
 }
-_s(LandingScreen, "M6gtoNaW0yBhWFA7GIv0+X8SQ8I=");
+_s(LandingScreen, "uJT7SeA97WbKXhMvvqZVF1/vmpE=");
 _c1 = LandingScreen;
 function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
     _s1();
@@ -881,20 +882,20 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                         children: "← Back"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 125,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         children: "Public rooms"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 126,
+                        lineNumber: 128,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 124,
+                lineNumber: 126,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -905,7 +906,7 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                         children: "Loading…"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 129,
+                        lineNumber: 131,
                         columnNumber: 21
                     }, this),
                     !loading && rooms.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -913,7 +914,7 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                         children: "No public rooms yet."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 130,
+                        lineNumber: 132,
                         columnNumber: 44
                     }, this),
                     rooms.map((room)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -924,7 +925,7 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                                     name: room.name
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 133,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -935,7 +936,7 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                                             children: room.name
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 137,
                                             columnNumber: 15
                                         }, this),
                                         room.topic && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -943,13 +944,13 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                                             children: room.topic
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 136,
+                                            lineNumber: 138,
                                             columnNumber: 30
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 134,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -960,7 +961,7 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                                             children: room.code
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 139,
+                                            lineNumber: 141,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -971,31 +972,31 @@ function BrowseScreen({ onBack, onJoin, username, onSetUsername }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 140,
+                                            lineNumber: 142,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 138,
+                                    lineNumber: 140,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, room.code, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 132,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 128,
+                lineNumber: 130,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 123,
+        lineNumber: 125,
         columnNumber: 5
     }, this);
 }
@@ -1125,7 +1126,7 @@ function ChatScreen({ room, username, onLeave }) {
                         children: "← Leave"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 215,
+                        lineNumber: 217,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1136,7 +1137,7 @@ function ChatScreen({ room, username, onLeave }) {
                                 children: room.name
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 217,
+                                lineNumber: 219,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1144,13 +1145,13 @@ function ChatScreen({ room, username, onLeave }) {
                                 children: room.visibility
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 218,
+                                lineNumber: 220,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 216,
+                        lineNumber: 218,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1161,7 +1162,7 @@ function ChatScreen({ room, username, onLeave }) {
                                 children: room.code
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 221,
+                                lineNumber: 223,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1172,19 +1173,19 @@ function ChatScreen({ room, username, onLeave }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 222,
+                                lineNumber: 224,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 220,
+                        lineNumber: 222,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 214,
+                lineNumber: 216,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1195,7 +1196,7 @@ function ChatScreen({ room, username, onLeave }) {
                         children: room.topic
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 227,
+                        lineNumber: 229,
                         columnNumber: 24
                     }, this),
                     messages.map((msg)=>{
@@ -1208,7 +1209,7 @@ function ChatScreen({ room, username, onLeave }) {
                                     color: msg.color
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 232,
+                                    lineNumber: 234,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1219,7 +1220,7 @@ function ChatScreen({ room, username, onLeave }) {
                                             children: msg.author
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 234,
+                                            lineNumber: 236,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1227,19 +1228,19 @@ function ChatScreen({ room, username, onLeave }) {
                                             children: msg.text
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 235,
+                                            lineNumber: 237,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 233,
+                                    lineNumber: 235,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, msg.id || msg.ts, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 231,
+                            lineNumber: 233,
                             columnNumber: 13
                         }, this);
                     }),
@@ -1248,20 +1249,20 @@ function ChatScreen({ room, username, onLeave }) {
                         children: typingText
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 242,
+                        lineNumber: 244,
                         columnNumber: 24
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         ref: bottomRef
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 243,
+                        lineNumber: 245,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 226,
+                lineNumber: 228,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1280,7 +1281,7 @@ function ChatScreen({ room, username, onLeave }) {
                         placeholder: `Message ${room.name}…`
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 247,
+                        lineNumber: 249,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1290,19 +1291,19 @@ function ChatScreen({ room, username, onLeave }) {
                         children: "Send"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 257,
+                        lineNumber: 259,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 246,
+                lineNumber: 248,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 213,
+        lineNumber: 215,
         columnNumber: 5
     }, this);
 }
@@ -1312,10 +1313,20 @@ function Home() {
     _s3();
     const [screen, setScreen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('landing');
     const [room, setRoom] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [username, setUsername] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [username, setUsername] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])({
+        "Home.useState": ()=>{
+            if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+            ;
+            return localStorage.getItem('chatrooms_username') || '';
+        }
+    }["Home.useState"]);
+    function handleSetUsername(name) {
+        setUsername(name);
+        localStorage.setItem('chatrooms_username', name);
+    }
     function handleJoin(roomData, name) {
         setRoom(roomData);
-        setUsername(name);
+        handleSetUsername(name);
         setScreen('chat');
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1326,16 +1337,16 @@ function Home() {
                         children: "BDT-cord"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 277,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
                         rel: "icon",
                         type: "image/x-icon",
-                        href: "../images/bdt logo.png"
+                        href: "images/bdt-logo.png"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 278,
+                        lineNumber: 288,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1343,31 +1354,32 @@ function Home() {
                         content: "width=device-width, initial-scale=1"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 279,
+                        lineNumber: 289,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 276,
+                lineNumber: 286,
                 columnNumber: 7
             }, this),
             screen === 'landing' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LandingScreen, {
                 onJoin: handleJoin,
-                onBrowse: ()=>setScreen('browse')
+                onBrowse: ()=>setScreen('browse'),
+                savedName: username
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 281,
+                lineNumber: 291,
                 columnNumber: 32
             }, this),
             screen === 'browse' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(BrowseScreen, {
                 onBack: ()=>setScreen('landing'),
                 onJoin: handleJoin,
                 username: username,
-                onSetUsername: setUsername
+                onSetUsername: handleSetUsername
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 282,
+                lineNumber: 292,
                 columnNumber: 31
             }, this),
             screen === 'chat' && room && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChatScreen, {
@@ -1379,13 +1391,14 @@ function Home() {
                 }
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 283,
+                lineNumber: 293,
                 columnNumber: 37
-            }, this)
+            }, this),
+            "    "
         ]
     }, void 0, true);
 }
-_s3(Home, "33ZvzAAkoGhwzLAM/spcSmcmL+M=");
+_s3(Home, "hScGFgWzcFEfNzzjcbsT5EB2yEA=");
 _c4 = Home;
 var _c, _c1, _c2, _c3, _c4;
 __turbopack_context__.k.register(_c, "Avatar");

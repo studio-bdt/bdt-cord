@@ -265,6 +265,11 @@ body {
 .roomName {
   font-weight: 600;
   font-size: 15px;
+  color: #000;;
+}
+
+:global(body.dark) .roomName {
+  color: #eee;
 }
 
 .roomTopic {
@@ -452,6 +457,10 @@ body {
 .source {
   text-align: center;
   color: #111;
+}
+
+:global(body.dark) .source {
+  color: #aaa;
 }
 
 .source a {

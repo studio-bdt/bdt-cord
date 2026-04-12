@@ -38,10 +38,11 @@ async function handler(req, res) {
     if (!room) return res.status(404).json({
         error: 'Room not found'
     });
-    const messages = await redis.lrange(`messages:${roomCode}`, -100, -1);
+    const raw = await redis.lrange(`messages:${roomCode}`, -100, -1);
+    const messages = raw.map((m)=>typeof m === 'string' ? JSON.parse(m) : m);
     res.json({
         ...room,
-        messages: messages.map((m)=>JSON.parse(m))
+        messages
     });
 }
 __turbopack_async_result__();
