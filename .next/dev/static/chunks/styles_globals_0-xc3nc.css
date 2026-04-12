@@ -1,0 +1,26 @@
+/* [project]/styles/globals.css [client] (css) */
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: #000;
+  background: #fff;
+  height: 100%;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+#__next {
+  height: 100%;
+}
+
+input, textarea, button {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=styles_globals_0-xc3nc.css.map*/

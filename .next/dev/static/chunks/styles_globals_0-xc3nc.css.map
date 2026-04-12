@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Alec/studioBDT/bdt-cord/styles/globals.css"],"sourcesContent":["*, *::before, *::after {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nhtml, body {\r\n  height: 100%;\r\n  font-family: monospace;\r\n  font-size: 15px;\r\n  line-height: 1.6;\r\n  background: #ffffff;\r\n  color: #000000;\r\n}\r\n\r\n#__next {\r\n  height: 100%;\r\n}\r\n\r\ninput, textarea, button {\r\n  font-family: monospace;\r\n  font-size: 15px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;;AASA;;;;AAIA"}}]
+}

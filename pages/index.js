@@ -93,6 +93,7 @@ function LandingScreen({ onJoin, onBrowse }) {
         {err && <p className={styles.error}>{err}</p>}
 
         <button className={styles.linkBtn} onClick={onBrowse}>Browse public rooms →</button>
+        <button className={styles.darkModeToggle} onClick={() => { document.body.classList.toggle('dark'); console.log('Dark mode toggled');}}></button>
       </div>
     </div>
   )

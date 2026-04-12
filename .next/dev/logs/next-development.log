@@ -1,0 +1,266 @@
+{"timestamp":"00:00:04.876","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:55.700","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
+{"timestamp":"00:01:02.840","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:01:02.840","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:01:02.854","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:01:07.400","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:01:07.739","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:01:12.166","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:01:29.122","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:01:33.581","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:01:33.641","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:01:38.098","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:02:07.601","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:02:07.601","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:02:07.607","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:02:07.616","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:02:12.082","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:02:26.612","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:02:33.384","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:06:52.637","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:07:32.655","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:08:00.723","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:08:50.523","source":"Server","level":"LOG","message":"✓ Compiled in 86ms"}
+{"timestamp":"00:08:52.953","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:14:16.494","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
+{"timestamp":"00:14:55.014","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:15:32.638","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:16:29.099","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:16:38.220","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:17:06.375","source":"Server","level":"LOG","message":"✓ Compiled in 94ms"}
+{"timestamp":"00:17:07.123","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:17:23.715","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:17:40.046","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:17:56.693","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:18:16.879","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:18:30.118","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:20:13.512","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:20:21.604","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:20:35.951","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:20:51.140","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:20:59.955","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:23:50.687","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:26:03.122","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:26:15.331","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"00:27:31.667","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:28:15.709","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:28:31.014","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:28:59.065","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:29:20.853","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
+{"timestamp":"00:30:57.877","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:31:00.041","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:00.310","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:00.492","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:00.669","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:00.832","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:10.803","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:11.098","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:11.249","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:19.479","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:31:19.479","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:31:19.492","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:31:23.975","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:31:24.175","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:31:28.609","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:31:37.062","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:37.738","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:37.893","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:38.035","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:41.659","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:31:50.735","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:49.681","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:32:51.533","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:51.911","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:52.062","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:52.220","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:52.374","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:55.389","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:55.570","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:55.734","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:55.911","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:32:58.972","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:50.944","source":"Server","level":"LOG","message":"✓ Compiled in 91ms"}
+{"timestamp":"00:33:53.551","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:54.174","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:54.563","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:54.894","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:55.172","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:55.718","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:56.264","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:57.405","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:57.888","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:58.596","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:58.931","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:59.289","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:33:59.873","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:34:00.777","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:34:00.777","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:34:00.784","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:34:03.853","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:34:04.148","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:34:05.271","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:34:05.354","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:34:09.896","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:35:06.637","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:35:08.135","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:08.598","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:09.723","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:09.964","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:19.079","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:35:20.475","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:20.779","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:21.199","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:21.612","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:47.222","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:35:48.476","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:49.158","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:35:49.541","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:36:10.733","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:36:12.169","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:36:12.634","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:36:14.243","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:36:14.402","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:25.483","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:37:26.905","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:27.845","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:28.146","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:28.743","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:34.961","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:40.671","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:42.309","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:52.695","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:37:52.984","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:39:06.226","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:39:09.715","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:39:11.703","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:39:12.055","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:39:12.893","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:39:14.525","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:39:56.225","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:40:53.675","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:41:08.594","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:41:28.748","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:41:43.792","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:41:45.890","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:41:45.890","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:41:45.897","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:41:50.397","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:42:38.583","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:42:40.146","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:42:44.605","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:42:45.717","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:42:46.856","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:43:32.890","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:43:41.843","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:43:54.301","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:44:28.932","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:44:45.331","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:45:03.142","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:45:16.282","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:45:31.297","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:45:33.678","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:45:46.774","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:45:51.122","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:45:51.122","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:45:51.127","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:45:55.568","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from /pipeline"}
+{"timestamp":"00:46:02.651","source":"Server","level":"WARN","message":"[Upstash Redis] The 'url' property is missing or undefined in your Redis config."}
+{"timestamp":"00:46:02.651","source":"Server","level":"WARN","message":"[Upstash Redis] The 'token' property is missing or undefined in your Redis config."}
+{"timestamp":"00:46:02.656","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:46:07.134","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:46:07.196","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:46:11.630","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:47:45.902","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:48:05.653","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:48:22.741","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:49:48.748","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:49:50.091","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:49:50.616","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:49:51.793","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:50:03.933","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:50:31.070","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:50:35.035","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:50:39.508","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:50:39.541","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:50:44.033","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:51:16.895","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:51:23.345","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:51:33.980","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"00:51:37.321","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:51:39.538","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:51:43.988","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:51:44.047","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:51:48.492","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:52:04.079","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:52:15.745","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:52:17.027","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:52:21.485","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:52:21.560","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:52:26.120","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:53:27.026","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:54:07.198","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:54:16.445","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:17.041","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:17.354","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:17.648","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:18.160","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:18.578","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:19.817","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:20.830","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:21.257","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:21.831","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:22.508","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:23.709","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:54:29.203","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:54:33.667","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:54:33.712","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:54:38.125","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:55:06.937","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:55:08.714","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:55:13.122","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:55:13.172","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:55:17.616","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:55:28.024","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:55:32.104","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:55:36.545","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:55:36.608","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:55:40.425","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:55:41.023","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:55:41.025","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:55:41.425","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:55:44.034","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:56:27.728","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"00:56:37.264","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:56:38.517","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:56:39.654","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:56:44.086","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:56:44.145","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:56:48.567","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:57:12.145","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:57:21.554","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:57:22.687","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:57:23.224","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:57:27.648","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:57:27.701","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:57:32.131","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:57:39.755","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:57:44.185","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:57:51.844","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:57:56.239","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:57:56.338","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:58:00.763","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"00:58:08.089","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:58:08.626","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:58:23.808","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:58:24.269","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"00:58:52.048","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"00:58:56.482","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from /pipeline"}
+{"timestamp":"01:02:42.174","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"01:04:59.718","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"01:18:14.707","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"01:18:17.198","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"01:18:17.639","source":"Browser","level":"LOG","message":"Dark mode toggled"}
+{"timestamp":"01:18:19.202","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"01:18:23.686","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
+{"timestamp":"01:18:23.722","source":"Server","level":"WARN","message":"[Upstash Redis] Redis client was initialized without url or token. Failed to execute command."}
+{"timestamp":"01:18:28.233","source":"Server","level":"ERROR","message":"⨯ TypeError: Failed to parse URL from "}
