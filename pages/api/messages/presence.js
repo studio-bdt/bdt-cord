@@ -8,8 +8,17 @@ export default async function handler(req, res) {
   const { code, author, action } = req.body
   const roomCode = code?.toUpperCase()
   if (!roomCode || !author) return res.status(400).end()
+
   const delta = action === 'join' ? 1 : -1
   const members = await redis.hincrby(`room:${roomCode}`, 'members', delta)
-  await pusher.trigger(`room-${roomCode}`, 'presence', { author, action, members: Math.max(0, members) })
-  res.status(200).json({ members: Math.max(0, members) })
+  const actual = Math.max(0, members)
+
+  if (actual === 0) {
+    await redis.del(`room:${roomCode}`)
+    await redis.del(`messages:${roomCode}`)
+    await redis.srem('public_rooms', roomCode)
+  }
+
+  await pusher.trigger(`room-${roomCode}`, 'presence', { author, action, members: actual })
+  res.status(200).json({ members: actual })
 }
