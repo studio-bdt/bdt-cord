@@ -1,9 +1,10 @@
-const store = global._store || (global._store = { rooms: {} })
+import { Redis } from '@upstash/redis'
+const redis = new Redis({ url: process.env.UPSTASH_REDIS_REST_URL, token: process.env.UPSTASH_REDIS_REST_TOKEN })
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).end()
-  const rooms = Object.values(store.rooms)
-    .filter(r => r.visibility === 'public')
-    .map(({ messages, ...r }) => r)
-  res.json(rooms)
+  const codes = await redis.smembers('public_rooms')
+  if (!codes.length) return res.json([])
+  const rooms = await Promise.all(codes.map(code => redis.hgetall(`room:${code}`)))
+  res.json(rooms.filter(Boolean).map(r => ({ ...r, messages: undefined })))
 }
