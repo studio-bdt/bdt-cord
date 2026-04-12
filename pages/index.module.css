@@ -22,13 +22,13 @@
 }
 
 .joinCards {
-  display: grid;
+  display: flex;
   justify-content: center;
   margin: 15px;
   flex-direction: row;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   .joinCards {
     flex-direction: column; 
   }
