@@ -5,7 +5,13 @@ const pusher = new Pusher({ appId: process.env.PUSHER_APP_ID, key: process.env.P
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
-  const { code, author, action } = req.body
+
+  let body = req.body
+  if (typeof body === 'string') {
+    try { body = JSON.parse(body) } catch { return res.status(400).end() }
+  }
+
+  const { code, author, action } = body
   const roomCode = code?.toUpperCase()
   if (!roomCode || !author) return res.status(400).end()
 

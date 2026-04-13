@@ -179,7 +179,13 @@ function ChatScreen({ room, username, onLeave }) {
       body: JSON.stringify({ code: room.code, author: username, action: 'join' }),
     })
 
+    function handleUnload() {
+      navigator.sendBeacon('/api/messages/presence', JSON.stringify({ code: room.code, author: username, action: 'leave' }))
+    }
+    window.addEventListener('beforeunload', handleUnload)
+
     return () => {
+      window.removeEventListener('beforeunload', handleUnload)
       fetch('/api/messages/presence', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code: room.code, author: username, action: 'leave' }),
