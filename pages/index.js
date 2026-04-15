@@ -20,7 +20,7 @@ function Avatar({ name, color }) {
   )
 }
 
-function LandingScreen({ onJoin, onBrowse, savedName }) {
+function LandingScreen({ onJoin, onBrowse, savedName, onToggleDark }) {
   const [name, setName] = useState(savedName || '')
   const [code, setCode]       = useState('')
   const [rName, setRName]     = useState('')
@@ -57,7 +57,9 @@ function LandingScreen({ onJoin, onBrowse, savedName }) {
   return (
     <div className={styles.landing}>
       <div className={styles.landingInner}>
-        <h1 className={styles.landingTitle}>BDT-cord</h1>
+        <h1 className={styles.landingTitle}>BDT.cord</h1>
+
+        <p className={styles.source}>Bad Discord Test</p>
 
         <div className={styles.joinCards}>
           <section className={styles.card}>
@@ -95,7 +97,8 @@ function LandingScreen({ onJoin, onBrowse, savedName }) {
         <button className={styles.linkBtn} onClick={onBrowse}>Browse public rooms →</button>
 
         <p className={styles.source}>Created by <a href="https://studio-bdt.github.io">Studio BDT</a></p>
-        <button className={styles.darkModeToggle} onClick={() => { document.body.classList.toggle('dark'); console.log('Dark mode toggled');}}></button>
+
+        <button className={styles.darkModeToggle} onClick={onToggleDark}></button>
 
         
       </div>
@@ -271,12 +274,31 @@ function ChatScreen({ room, username, onLeave }) {
 }
 
 export default function Home() {
-  const [screen, setScreen]     = useState('landing')
-  const [room, setRoom]         = useState(null)
+  const [screen, setScreen] = useState('landing')
+  const [room, setRoom] = useState(null)
+  const [darkMode, setDarkMode] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return localStorage.getItem('darkMode') === 'true'
+  })
+  
   const [username, setUsername] = useState(() => {
     if (typeof window === 'undefined') return ''
     return localStorage.getItem('chatrooms_username') || ''
   })
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add('dark')
+    } else {
+      document.body.classList.remove('dark')
+    }
+  }, [darkMode])
+
+  function toggleDarkMode() {
+    const next = !darkMode
+    setDarkMode(next)
+    localStorage.setItem('darkMode', next)
+  }
 
   function handleSetUsername(name) {
     setUsername(name)
@@ -290,14 +312,15 @@ export default function Home() {
   }
 
   return (
-    <>
+    <div className={darkMode ? styles.dark : ''}>
       <Head>
-        <title>BDT-cord</title>
-        <link rel="icon" type="image/x-icon" href="images/bdt-logo.png"></link>
+        <title>BDT.cord</title>
+        <link rel="icon" type="image/x-icon" href="images/bdt-logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      {screen === 'landing' && <LandingScreen onJoin={handleJoin} onBrowse={() => setScreen('browse')} savedName={username} />}
+      {screen === 'landing' && <LandingScreen onJoin={handleJoin} onBrowse={() => setScreen('browse')} savedName={username} onToggleDark={toggleDarkMode} />}
       {screen === 'browse' && <BrowseScreen onBack={() => setScreen('landing')} onJoin={handleJoin} username={username} onSetUsername={handleSetUsername} />}
-      {screen === 'chat' && room && <ChatScreen room={room} username={username} onLeave={() => { setRoom(null); setScreen('landing') }} />}    </>
+      {screen === 'chat' && room && <ChatScreen room={room} username={username} onLeave={() => { setRoom(null); setScreen('landing') }} />}
+    </div>
   )
 }
