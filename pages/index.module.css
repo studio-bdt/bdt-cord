@@ -158,6 +158,11 @@ body {
   opacity: 0.8;
 }
 
+:global(body.dark) .darkModeToggle {
+  background-image: url('https://images.icon-icons.com/949/PNG/512/interface-circular-button-with-a-sun_icon-icons.com_74113.png');
+  background-size: cover;
+}
+
 :global(body.dark) .input {
   background: #121212;
   color: #fff;
